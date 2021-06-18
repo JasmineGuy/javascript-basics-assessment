@@ -45,7 +45,7 @@ function bigOrSmall(arr){
   for (let i = 0; i < arr.length; i++) {
     if(arr[i] > 100) {
       answers.push("big")
-    } else if ( arr[i] <=100) {
+    } else if (arr[i] <=100) {
       answers.push("small")
     }
   }return answers

@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-const gitDefinition ="git is a version control system on your computer that helps with collaboration and tracking changes to coding projects "
+const gitDefinition ="git is a version control system on your computer that helps with collaboration and tracking changes to coding projects"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -35,7 +35,7 @@ const gitHubDefinition = "gitHub is a website that makes collaborating on code e
 
 //CODE HERE
 const init = {
-    description: "initializes a local repo",
+    description: "initializes a local repo on your machine",
     code: "git init"
 }
 //////////////////PROBLEM 4////////////////////
@@ -47,7 +47,7 @@ const init = {
 //CODE HERE
 const clone = {
     description: "copies a repo from Github to your computer",
-    code: "git clone REPO_URL"
+    code: "git clone <REPO_URL>"
 }
 //////////////////PROBLEM 5////////////////////
 /*
@@ -57,7 +57,7 @@ const clone = {
 
 //CODE HERE
 const status = {
-    description: "gives info on this particular repo",
+    description: "checks the status of everything in your working tree",
     code: "git status"
 }
 //////////////////PROBLEM 6////////////////////
@@ -68,7 +68,7 @@ const status = {
 
 //CODE HERE
 const add = {
-    description: "add some file to be tracked",
+    description: "stages your files to be committed",
     code: "git add ."
 }
 //////////////////PROBLEM 7////////////////////
@@ -79,7 +79,7 @@ const add = {
 
 //CODE HERE
 const commit = {
-    description: "creates a snapshot of the files I am tracking",
+    description: "adds everything from your staging area to your local repo",
     code: `git commit -m 'insert comments here'`
 }
 

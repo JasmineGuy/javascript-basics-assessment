@@ -24,7 +24,7 @@ const me = {
     return `Hello! My name is ${firstName} and I live in ${state}` }
 } 
 
-
+console.log(me.greeter());
 //////////////////PROBLEM 2////////////////////
 /*
   Write a function called carFactory that takes in three parameters: a make, model, and year.  

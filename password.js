@@ -7,8 +7,8 @@ const reader = readline.createInterface({
 
 reader.question("Welcome to Password Validator! What's your password?", function(answer) {
     console.log("Validating " + answer);
-    
-    if( answer.length > 10 ) {
+
+    if( answer.length >= 10 ) {
         console.log(answer + " is a successful password")
     } else {
         console.log(answer + " is an unsuccessful password")

@@ -35,13 +35,13 @@ console.log(greaterThanFive(3))
 
 //CODE HERE
 function findZWords(word){
-  if(word.charAt(0) ==="Z"){
+  if(word.charAt(0) ==="Z" || word.charAt(0)==="z"){
     return "The name begins with Z"
   } else {
     return "The name does not begin with Z"
   }
 }
-console.log(findZWords("Zoo"))
+console.log(findZWords("Zenith"))
 
 //////////////////PROBLEM 4////////////////////
 /*
